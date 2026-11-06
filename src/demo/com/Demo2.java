@@ -7,16 +7,15 @@ public class Demo2 {
     {
         int a=590;
         int num=0;
-        int temp=a;
+        int temp=a; //590
         int higer=0;
 
         while(temp>0)
         {
-            int rem=temp%10;
-
+            int rem=temp%10; //590 --> 0 // 59 --> 5.9 // --> 0.5
             if(rem>higer)
             {
-                higer=rem;
+                higer=rem; //0 //9
             }
             temp=temp/10;
         }
