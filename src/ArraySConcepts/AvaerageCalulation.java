@@ -15,7 +15,7 @@ public class AvaerageCalulation {
             sum=sum+arr[i];
 
         }
-        avg=sum/2;
+        avg=sum/arr.length;
 
         System.out.println(sum);
 
